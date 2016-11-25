@@ -1,0 +1,27 @@
+class_name: Sequential
+config:
+- class_name: Dense
+  config:
+    W_constraint: null
+    W_regularizer: null
+    activation: relu
+    activity_regularizer: null
+    b_constraint: null
+    b_regularizer: null
+    batch_input_shape: !!python/tuple [null, 8]
+    bias: true
+    init: uniform
+    input_dim: 8
+    input_dtype: float32
+    name: dense_4
+    output_dim: 12
+    trainable: true
+- class_name: Dense
+  config: {W_constraint: null, W_regularizer: null, activation: relu, activity_regularizer: null,
+    b_constraint: null, b_regularizer: null, bias: true, init: uniform, input_dim: null,
+    name: dense_5, output_dim: 8, trainable: true}
+- class_name: Dense
+  config: {W_constraint: null, W_regularizer: null, activation: sigmoid, activity_regularizer: null,
+    b_constraint: null, b_regularizer: null, bias: true, init: uniform, input_dim: null,
+    name: dense_6, output_dim: 1, trainable: true}
+keras_version: 1.1.1
