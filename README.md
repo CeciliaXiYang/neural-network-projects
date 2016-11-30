@@ -6,6 +6,7 @@ Recommended order for exploring these projects is as follows:
 
 ### Deep Neural Networks
 
+- Life-Cycle for Neural Network Models in Keras
 - My first Neural Network with Keras
 - Multi-Class classification with Keras
 - Check-Point Deep Learning Models in Keras
