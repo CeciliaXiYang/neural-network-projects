@@ -20,6 +20,7 @@ Recommended order for exploring these projects is as follows:
 - Handwritten Digit Recognition using Convolutional Neural Networks
 - Object Recognition in CIFAR-10 with Convolutional Neural Networks
 - Predict Sentiment From Movie Reviews
+- Text Classification with Keras and GloVe Embedding
 
 ### Recurrent Neural Networks
 
